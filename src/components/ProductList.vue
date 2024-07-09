@@ -30,13 +30,11 @@ onMounted(async () => {
         <i class="mdi mdi-heart-outline" />
       </div>
       <div class="product-title-price">
-        
         <p>{{ formatTitle(product.title) }}</p>
         <p>{{ formatPrice(product.price * 1) }}</p>
       </div>
       <div class="product-description-stars">
-            
-        <p>{{ formatDescription(product.description) }}</p>
+        <p>{{ formatDescription(format.description) }}</p>
         <div class="stars">
           <i class="mdi mdi-star" size="20" />
           <i class="mdi mdi-star" size="20" />
